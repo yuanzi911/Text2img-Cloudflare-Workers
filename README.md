@@ -1,17 +1,10 @@
-<div align="center">
-  <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <clipPath id="rounded-clip">
-        <rect x="0" y="0" width="120" height="120" rx="25" ry="25"/>
-      </clipPath>
-    </defs>
-    <image width="120" height="120" 
-          xlink:href="public/cat1.png" 
-          clip-path="url(#rounded-clip)"/>
-  </svg>
-</div>
+<p align="center">
+  <a href="https://text-to-image-template.templates.workers.dev/" target="_blank" rel="noopener">
+    <img alt="text-to-image" src="public/cat0.png" width="120" height="120" />
+  </a>
+</p>
 
-</br>
+<div align="center"></br></div>
 
 <div align="center">
   <h1>
@@ -31,14 +24,14 @@
 
 </div>
 
-</br>
+<div align="center"></br></div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="public/top-dark.png">
   <img alt="应用截图" src="public/top.png">
 </picture>
 
-</br>
+<div align="center"></br></div>
 
 ## 
 
