@@ -1,12 +1,15 @@
-<a href="https://text2img.huarzone.com/" target="_blank" rel="noopener">
-  <picture>
-    <img 
-      alt="text-to-image" 
-      src="public/cat1.png" 
-      style="width: 120px; height: 120px; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" 
-    />
-  </picture>
-</a>
+<div align="center">
+  <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="rounded-clip">
+        <rect x="0" y="0" width="120" height="120" rx="25" ry="25"/>
+      </clipPath>
+    </defs>
+    <image width="120" height="120" 
+          xlink:href="public/cat1.png" 
+          clip-path="url(#rounded-clip)"/>
+  </svg>
+</div>
 
 </br>
 
