@@ -2,120 +2,48 @@
   <picture>
     <img 
       alt="text-to-image" 
-      src="https://text-to-image-template.templates.workers.dev/" 
+      src="public/cat1.png" 
       style="width: 120px; height: 120px; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" 
     />
   </picture>
 </a>
 
+</br>
 
 <div align="center">
-  <h2>
+  <h1>
     ✨ 基于 Cloudflare AI & Workers 的免费在线文生图服务 </br>
-  </h2>
+  </h1>
 </div>
 
-<div class="browser-mockup">
-  <div class="browser-buttons">
-    <div class="browser-button close"></div>
-    <div class="browser-button minimize"></div>
-    <div class="browser-button expand"></div>
-  </div>
-  <div class="browser-address-bar">text2img.huarzone.com</div>
-  <div class="browser-content">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="public/top-dark.png">
-      <img alt="应用截图" src="public/top.png">
-    </picture>
-  </div>
+<div align="center">
+
+[项目简介](#📚-项目简介) |
+[主要特性](#✨-主要特性) |
+[快速开始](#🚀-快速开始) |
+[使用指南](#📝-使用指南) |
+[配置选项](#⚙️-配置选项) |
+[模型限制](#📊-模型限制) |
+[项目示例](https://text2img.huarzone.com/)
+
 </div>
 
-<style>
-.browser-mockup {
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin: 2rem 0;
-  overflow: hidden;
-  background: #f0f0f0;
-}
+</br>
 
-.browser-buttons {
-  background: #f0f0f0;
-  padding: 8px 12px;
-  border-bottom: 1px solid #ddd;
-  display: flex;
-  align-items: center;
-}
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="public/top-dark.png">
+  <img alt="应用截图" src="public/top.png">
+</picture>
 
-.browser-button {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 6px;
-}
+</br>
 
-.browser-button.close {
-  background-color: #ff5f56;
-}
-
-.browser-button.minimize {
-  background-color: #ffbd2e;
-}
-
-.browser-button.expand {
-  background-color: #27c93f;
-}
-
-.browser-address-bar {
-  background: white;
-  border-radius: 4px;
-  margin: 0 70px 8px;
-  padding: 4px 10px;
-  font-size: 13px;
-  color: #666;
-  text-align: center;
-}
-
-.browser-content {
-  background: white;
-  padding: 10px;
-}
-
-.browser-content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (prefers-color-scheme: dark) {
-  .browser-mockup {
-    background: #333;
-    border-color: #444;
-  }
-  .browser-buttons {
-    background: #333;
-    border-color: #444;
-  }
-  .browser-address-bar {
-    background: #222;
-    color: #ddd;
-  }
-  .browser-content {
-    background: #222;
-  }
-}
-</style>
-
-
-## 📚 项目简介
+## 
 
 Text2img-Cloudflare-Workers 是基于 Cloudflare Workers AI 服务搭建的在线文本生成图像可视化网页，完全构建在 Cloudflare Workers 上。该项目为通过简单调用 Cloudflare 官方提供的 [文生图 - Text-to-Image](https://developers.cloudflare.com/workers-ai/models/) 模型，可以快速实现随时随地无需登录的图像生成需求。
 
 ### 体验地址：[https://text2img.huarzone.com/](https://text2img.huarzone.com/)
 
-## ✨ 特性
+## ✨ 主要特性
 
 - 🚀 完全基于 Cloudflare Workers，无需服务器部署
 - 🎨 利用 Cloudflare AI 提供免费高质量文生图模型
@@ -147,7 +75,7 @@ Text2img-Cloudflare-Workers 是基于 Cloudflare Workers AI 服务搭建的在�
 
 🎉 部署完成后，即可通过 Cloudflare 分配的域名或自定义域名访问你的文生图服务！
 
-## 📝 使用方法
+## 📝 使用指南
 
 1. 访问应用网址，默认分配的域名为 `https://<your-worker-name>.<your-subdomain>.workers.dev/`。
 
