@@ -53,7 +53,7 @@ const RANDOM_PROMPTS = [
 
 // Passwords for authentication
 // demo: const PASSWORDS = ['P@ssw0rd']
-const PASSWORDS = []
+const PASSWORDS = [Xiaoxingxing#123]
 
 
 export default {
